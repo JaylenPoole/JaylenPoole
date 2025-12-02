@@ -1,0 +1,74 @@
+/* Body: Background color, font family */
+body {
+    background-color: #05e7c5; /* Teal/aqua background for a fresh look or i think that's aqua or something */
+    font-family: "Times New Roman", Times, serif; /* Classic font for that sleek look. */
+    margin: 0; /* Simple Margin settings*/
+    padding: 0; /* Classic padding */
+    line-height: 1.6; /* Easy on the eyes */
+}
+
+/* Header: Background, text color, padding, and border */
+header {
+    background-color: #84470d; /* Warm brown background */
+    color: white; /* White text for contrast */
+    padding: 20px; /* Increased padding for breathing room */
+    text-align: center;
+    border: 2px solid #333; /* Solid border for definition */
+    margin-bottom: 10px; /* and Space for Organzation. */
+}
+
+/* Nav:With added Borders Etc. */
+nav {
+    background-color: #f0f0f0; /* Light gray background for contrast */
+    padding: 10px;
+    display: flex; /* Flexbox for horizontal layout */
+    justify-content: center; /* Center links for My Scatter brain but i'm sure it'll help anyone who's viewing */
+    border: 1px solid #ccc; /* Subtle border */
+    margin-bottom: 20px; /* Space below */
+}
+
+nav a {
+    color: #a200ff; /* Purple links (inspired by Google.) */
+    text-decoration: none;
+    margin: 0 15px; /*  margins between links */
+    font-weight: bold; /* Make links stand out, Next time I'll make the Links orange probably*/
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #8000ff; /* Darker purple on hover */
+}
+
+/* Main: Container for sections */
+main {
+    max-width: 800px; /* Limit width for readability */
+    margin: 0 auto; /* Center the main content */
+    padding: 20px;
+}
+
+/* Section: Borders, padding, and margins as per your experiment */
+section {
+    border: 2px solid #333; /* Solid border around each section */
+    padding: 15px; /* Inner spacing */
+    margin: 10px 0; /* Vertical margins between sections */
+    background-color: #fff; /* White background for content readability */
+}
+
+/* Footer: Text color, padding, font size, and border */
+footer {
+    background-color: #f0f0f0; /* Light background */
+    color: #550101; /* Dark red text or is that crimson? */
+    font-size: 0.8em; /* Readable small size (adjusted from 1%) */
+    text-align: center;
+    padding: 15px; /* Padding for spacing */
+    border-top: 1px solid #ccc; /* Top border for separation */
+    margin-top: 20px; /* Space above */
+}
+
+/* Image styling for responsiveness for the sunset image since it was so opressive. */
+img {
+    max-width: 100%; /* Fits the width of the container (section) */
+    height: auto; /* Maintains aspect ratio, prevents distortion */
+    display: block; /* Optional: Removes bottom gap if needed */
+    margin: 0 auto; /* Optional: Centers the image horizontally */
+}
